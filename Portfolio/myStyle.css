@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Abraham';
+    src: url('../Fonts/Abraham-Regular.eot');
+    src: url('../Fonts/Abraham-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/Abraham-Regular.ttf') format('truetype');
+}
+
+
+
+    body {
+    direction: rtl;
+    background-color: #f0f1ff;
+    background-image: url('../images/4056455564_3b613d93a2_o.jpg');
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Abraham;
+}
+
+    #container * {
+        font-family: 'Abraham';
+    }
+    
+    #pic {
+        background-image: url(../images/20170901_031754.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 391px;
+        background-position-x: -36px;
+        background-position-y: -6px;
+        border-radius: 185px;
+        padding-left: 247px;
+        padding-top: 200px;
+        padding-top: 260px;
+        display: block;
+        float: left;
+    }
+
+#picin {
+    background-image: url(../images/20170901_031754.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 391px;
+    background-position-x: -36px;
+    background-position-y: -6px;
+    border-radius: 185px;
+    padding-left: 247px;
+    padding-top: 200px;
+    padding-top: 260px;
+    display: block;
+    float: left;
+}
+#me
+{
+    display:none;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0 auto;
+    font-family: 'Trashim CLM';
+    font-size:18px;
+}
+
+#navi ul li, a {
+    display: inline-block;
+    margin: 10px;
+    font-family: Abraham;
+    text-decoration:none;
+}
+
+ #navi ul li:hover, #navi ul li:focus, #navi ul li:active {
+        -webkit-transform: translateY(-5px);
+        transform: translateY(-5px);
+    }
+
+.header {
+    display: inline-block;
+    background-image: url('../media/4056455564_3b613d93a2_o.jpg');
+}
+
+.bread ul li {
+    display: inline-block;
+    font-family:Abraham;
+    font-size:12px;
+    text-decoration:none;
+}
+
+.bread ul li:after {
+    content: ">";
+}
+
+.bread ul li:last-child:after {
+    content: "";
+}
+
+
+#content {
+    width: 650px;
+    margin: 15px;
+    font-family: Abraham;
+}
+
+#main{
+    font-family:Abraham;
+    font-size:50px;
+    color:cornflowerblue;
+}
+
+#main:hover {
+        font-family: Abraham;
+        font-size: 70px;
+        color: cornflowerblue;
+        
+    }
+
+#first {
+    font-family: Abraham;
+    font-size: 20px;
+    color: lightblue;
+    margin: 0 auto;
+}
+
+    #secondary {
+    font-family: Abraham;
+    font-size: 30px;
+    color: darkblue;
+}
+
+p {
+    width: 650px;
+    margin: 15px;
+    font-family: Abraham;
+    font-size: 15px;
+    color: darkblue;
+}
+
+#open {
+    width: 650px;
+    margin: 15px;
+    font-family: Abraham;
+    font-size: 15px;
+    color: darkblue;
+}
+
+#round a {
+    background-color: whitesmoke;
+    text-decoration: none;
+    font-family: abraham;
+    color: cornflowerblue;
+    border-radius: 84px;
+    padding: 35px;
+    height: 68px;
+    margin: 15px;
+}
+#round {
+    line-height: 59px;
+    display: flex;
+    padding-top: 40px
+}
+
+#round a:hover {
+        background: cornflowerblue;
+        color: whitesmoke;
+        text-decoration: none;
+        -webkit-transition: background-color .5ms linear;
+        -moz-transition: background-color .5ms linear;
+        -o-transition: background-color .5ms linear;
+        -ms-transition: background-color .5ms linear;
+        transition: background-color .5ms linear;
+    }
+
+#one {
+    font-size: 35px;
+    width: 100px;
+}
+#two {
+    font-size: 35px;
+    width: 100px;
+}
+#three {
+    font-size: 39px;
+    text-align: center;
+    width: 100px;
+}
+#webpic {
+    width: 200px;
+    height: 200px;
+    border-radius: 203px;
+}
+#grppic {
+    width: 200px;
+    height: 200px;
+    border-radius: 203px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+#tkspic {
+    width: 205px;
+    height: 200px;
+    border-radius: 203px;
+    padding: 10px;
+
+}
+
+#tksvid {
+    width: 200px;
+    height: 200px;
+    border-radius: 203px;
+    background-color: black;
+    padding: 10px;
+}
+#tksvid:hover  {
+    width: 569px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: whitesmoke;
+    padding: 10px;
+
+}
