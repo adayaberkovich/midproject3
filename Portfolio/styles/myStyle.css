@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Abraham-Regular';
-    src: url('../Abraham-Regular.eot');
-    format: 'embedded-opentype', url('../Fonts/Abraham-Regular.ttf') format('truetype');
+    font-family: 'Abraham';
+    src: url('../Fonts/Abraham-Regular.eot');
+    src: url('../Fonts/Abraham-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/Abraham-Regular.ttf') format('truetype');
 }
 
 
 
-body {
+    body {
     direction: rtl;
     background-color: #f0f1ff;
     background-image: url('../images/4056455564_3b613d93a2_o.jpg');
@@ -19,21 +19,24 @@ body {
     font-family: Abraham;
 }
 
-#pic {
-    background-image: url(../images/20170901_031754.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 391px;
-    background-position-x: -36px;
-    background-position-y: -6px;
-    border-radius: 185px;
-    padding-left: 247px;
-    padding-top: 200px;
-    padding-top: 260px;
-    display: block;
-    float: left;
+    #container * {
+        font-family: 'Abraham';
+    }
     
-}
+    #pic {
+        background-image: url(../images/20170901_031754.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 391px;
+        background-position-x: -36px;
+        background-position-y: -6px;
+        border-radius: 185px;
+        padding-left: 247px;
+        padding-top: 200px;
+        padding-top: 260px;
+        display: block;
+        float: left;
+    }
 
 #picin {
     background-image: url(../images/20170901_031754.jpg);
